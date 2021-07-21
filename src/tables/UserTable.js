@@ -30,6 +30,12 @@ const UserTable = props => (
               >
                 Delete
               </button>
+              <button
+                onClick={() => props.toUppercasename(user.id)}
+                className="button muted-button"
+              >
+                try
+              </button>
             </td>
           </tr>
         ))
